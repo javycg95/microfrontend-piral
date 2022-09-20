@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "angular-example": "apps/angular-example",
+    "angular-example-e2e": "apps/angular-example-e2e",
+    "blazor-example": "apps/blazor-example",
+    "blazor-example-test": "apps/blazor-example-test",
+    "piral-example-shell": "apps/piral-example-shell",
+    "react-example": "apps/react-example",
+    "react-example-e2e": "apps/react-example-e2e"
+  }
+}

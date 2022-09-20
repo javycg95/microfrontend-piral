@@ -1,0 +1,55 @@
+{
+  "name": "MicrofrontendPiral.BlazorExample",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "piral-example-shell": "file:..\\..\\piral-example-shell\\dist\\emulator\\piral-example-shell-1.0.0.tgz",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "5.3.3",
+    "react-router-dom": "5.3.3",
+    "history": "4.10.1",
+    "tslib": "2.4.0",
+    "path-to-regexp": "1.8.0",
+    "@libre/atom": "1.3.3",
+    "@dbeining/react-atom": "4.1.21",
+    "piral-cli": "^0.14.29"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "history": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "@libre/atom": "*",
+    "@dbeining/react-atom": "*",
+    "piral-example-shell": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "piral-example-shell"
+  },
+  "peerModules": []
+}
